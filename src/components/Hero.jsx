@@ -1,6 +1,6 @@
 const HeroSection = () =>{
     return(
-        <main className="hero">
+        <main className="hero container">
         <div className="hero-content">
             <h1>
                 YOUR FEET 
@@ -11,7 +11,7 @@ const HeroSection = () =>{
         
             <div className="hero-btn">
                 <button>Shop Now</button>
-                <button>Catagory</button>
+                <button className="secondary-btn">Catagory</button>
             </div>
 
             <div className="shopping">
